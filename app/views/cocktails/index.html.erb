@@ -1,7 +1,66 @@
 <h1>Dania's Cocktail Bar</h1>
-<% @cocktails.each do |cocktail| %>
-  <h1><%= cocktail.name %></h1>
-  <h3><%= link_to "See details", cocktail_path(cocktail) %></h3>
-<% end  %>
+
+<div class="container">
+  <div class="row">
+    <% images = ['phoy.com', 'phot2.def'] %>
+    <% @cocktails.each do |cocktail| %>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url( <%=  cl_image_path("cocktail.jpg")%> );">
+        <div class="card-description">
+        <h2><%= cocktail.name %> </h2>
+      </div>
+      <h3><%= link_to "See details", cocktail_path(cocktail) %></h3>
+    </div>
+    </div>
+<% end %>
+  </div>
+</div>
 
 <h3><%= link_to "Add a cocktail", new_cocktail_path %></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
