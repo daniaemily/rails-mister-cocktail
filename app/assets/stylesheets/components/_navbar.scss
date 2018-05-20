@@ -33,6 +33,7 @@
 .navbar-wagon-item {
   cursor: pointer;
   padding: 0 20px;
+  color: #FF8364;
 }
 
 /* Navbar link */
@@ -74,4 +75,13 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+fa, .fas {
+    font-weight: 900;
+    color: #FF8364;
+}
+
+a {
+  color: #FF8364;
 }

@@ -1,9 +1,9 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Lobster|Nanum+Gothic:400,700|Roboto:300,400,700");
 
 // Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+$headers-font: "Lobster", "cursive";
+$body-font: "Lato", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +14,14 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+.card-description a {
+  font-family:'Lato', sans-serif;
+  font-size: 20px;
+  color: #F9F9F9;
+}
+
+.card-description a:hover {
+  text-decoration: none;
+  color: #FF8364;
+}
