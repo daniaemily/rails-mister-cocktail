@@ -1,7 +1,12 @@
-<h1>new cocktails</h1>
-<%= simple_form_for (@cocktail) do |f| %>
-  <%= f.input :name %>
-  <%= f.input :photo %>
-  <%= f.input :photo_cache, as: :hidden %>
-  <%= f.button :submit %>
-<% end %>
+<div class="create_banner"></div>
+<div class="container">
+  <div class="form">
+    <h1>New Cocktails</h1>
+    <%= simple_form_for (@cocktail) do |f| %>
+      <%= f.input :name %>
+      <%= f.input :photo %>
+      <%= f.input :photo_cache, as: :hidden %>
+      <%= f.button :submit %>
+    <% end %>
+  </div>
+</div>

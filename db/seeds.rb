@@ -8,4 +8,12 @@
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "Rum")
+Ingredient.create(name: "Coke")
+Ingredient.create(name: "sugar")
+Ingredient.create(name: "bitters")
+Ingredient.create(name: "Whiskey")
+Ingredient.create(name: "Bourbon")
+Ingredient.create(name: "Vodka")
+Ingredient.create(name: "Orange")
 

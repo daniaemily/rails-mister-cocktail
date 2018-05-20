@@ -1,6 +1,12 @@
-<h1>New Doses</h1>
-<%= simple_form_for [@cocktail, @dose] do |f| %>
-  <%= f.input :description %>
-  <%= f.input :ingredient_id, collection: Ingredient.all %>
-  <%= f.button :submit %>
-<% end %>
+<div class="ingredient_banner">
+<div class="container">
+  <div class="form">
+    <h1>New Doses</h1>
+    <%= simple_form_for [@cocktail, @dose] do |f| %>
+      <%= f.input :description %>
+      <%= f.input :ingredient_id, collection: Ingredient.all %>
+      <%= f.button :submit %>
+  <% end %>
+  </div>
+</div>
+</div>
